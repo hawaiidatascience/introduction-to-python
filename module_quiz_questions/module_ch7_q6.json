@@ -1,0 +1,12 @@
+curl 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=' \
+     -H 'Content-Type: application/json' --data-binary \
+     '{"email":"", "password":"","returnSecureToken":true}'
+     
+     
+
+# Add question from file
+curl -i -H "Content-Type: application/json"   \
+ -H "Authorization: OAuth TOKEN_GOES_HERE" \
+ -X POST --data-binary \
+ "@sample_question.json" http://localhost:5000/nxbook/api/v1.0/questions
+ 
