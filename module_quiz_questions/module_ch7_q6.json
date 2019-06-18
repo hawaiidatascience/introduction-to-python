@@ -1,6 +1,6 @@
-curl 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyAZ3aUmQeqLsnlC8RnQli-GK6jgCKX6ukU' \
+curl 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=' \
      -H 'Content-Type: application/json' --data-binary \
-     '{"email":"b.mahdi@gmail.com", "password":"123qwe","returnSecureToken":true}'
+     '{"email":"", "password":"","returnSecureToken":true}'
      
      
 
